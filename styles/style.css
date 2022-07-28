@@ -7,3 +7,17 @@ body {
 .ed-bg-dark {
     background: #2125296e;
 }
+
+/* explore */
+.explore {
+    background-color: #f4f4fd;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .card-content {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 2rem;
+    }
+}
