@@ -20,4 +20,8 @@ body {
         padding-bottom: 1rem;
         padding-left: 2rem;
     }
+
+    .d-none {
+        display: none;
+    }
 }
