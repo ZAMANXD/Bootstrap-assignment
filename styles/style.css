@@ -3,6 +3,20 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* nav */
+.register-btn {
+    border: 1px solid #0D6EFD;
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+    color: black !important;
+    margin-top: 2px;
+}
+
+.register-btn:hover {
+    color: #fff !important;
+    background: #0D6EFD !important;
+}
+
 /* carousel */
 .ed-bg-dark {
     background: #2125296e;
@@ -22,6 +36,18 @@ body {
     }
 
     .d-none {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #register-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #register-desktop {
         display: none;
     }
 }
